@@ -1,0 +1,143 @@
+2021-02-18 14:47:57,480 INFO 12655 [egg-schedule]: register schedule /Users/rudy/Desktop/driving-services/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-18 14:47:57,480 INFO 12655 [egg-schedule]: register schedule /Users/rudy/Desktop/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-02-18 14:47:57,480 INFO 12655 [egg-schedule]: register schedule /Users/rudy/Desktop/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-18 14:47:57,480 INFO 12655 [egg-schedule]: register schedule /Users/rudy/Desktop/driving-services/app/schedule/somerefresh.js
+2021-02-18 15:04:55,664 INFO 15152 [Timer] /Users/rudy/Desktop/driving-services/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 48304338ms at 2021-02-19 04:30:00.002
+2021-02-18 15:04:55,665 INFO 15152 [Timer] /Users/rudy/Desktop/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 32104335ms at 2021-02-19 00:00:00.000
+2021-02-18 15:04:55,665 INFO 15152 [Timer] /Users/rudy/Desktop/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 32105335ms at 2021-02-19 00:00:01.000
+2021-02-18 15:04:55,665 INFO 15152 [Timer] /Users/rudy/Desktop/driving-services/app/schedule/somerefresh.js next time will execute immediate
+2021-02-18 15:04:55,666 INFO 15152 [Timer] /Users/rudy/Desktop/driving-services/app/schedule/somerefresh.js reach endDate, will stop
+2021-02-18 15:04:54,988 INFO 15167 [egg-schedule]: register schedule /Users/rudy/Desktop/driving-services/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-18 15:04:54,988 INFO 15167 [egg-schedule]: register schedule /Users/rudy/Desktop/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-02-18 15:04:54,988 INFO 15167 [egg-schedule]: register schedule /Users/rudy/Desktop/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-18 15:04:54,988 INFO 15167 [egg-schedule]: register schedule /Users/rudy/Desktop/driving-services/app/schedule/somerefresh.js
+2021-02-18 15:04:55,666 INFO 15167 [Job#16136318956659513592432704981] /Users/rudy/Desktop/driving-services/app/schedule/somerefresh.js executing by app
+2021-02-18 15:04:55,670 INFO 15167 [Job#16136318956659513592432704981] /Users/rudy/Desktop/driving-services/app/schedule/somerefresh.js execute succeed, used 3ms. 
+2021-02-18 15:47:48,829 INFO 16746 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-18 15:47:48,830 INFO 16746 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-02-18 15:47:48,830 INFO 16746 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-18 15:47:48,830 INFO 16746 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/app/schedule/somerefresh.js
+2021-02-18 15:47:50,509 INFO 16745 [Timer] /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 45729493ms at 2021-02-19 04:30:00.002
+2021-02-18 15:47:50,510 INFO 16745 [Timer] /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 29529491ms at 2021-02-19 00:00:00.001
+2021-02-18 15:47:50,510 INFO 16745 [Timer] /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 29530490ms at 2021-02-19 00:00:01.000
+2021-02-18 15:47:50,510 INFO 16745 [Timer] /Users/rudy/Desktop/hope/driving-services/app/schedule/somerefresh.js next time will execute immediate
+2021-02-18 15:47:50,511 INFO 16745 [Timer] /Users/rudy/Desktop/hope/driving-services/app/schedule/somerefresh.js reach endDate, will stop
+2021-02-18 15:47:50,511 INFO 16746 [Job#16136344705109539339923632841] /Users/rudy/Desktop/hope/driving-services/app/schedule/somerefresh.js executing by app
+2021-02-18 15:47:50,514 INFO 16746 [Job#16136344705109539339923632841] /Users/rudy/Desktop/hope/driving-services/app/schedule/somerefresh.js execute succeed, used 1ms. 
+2021-02-18 15:48:46,121 INFO 16853 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-18 15:48:46,121 INFO 16853 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-02-18 15:48:46,121 INFO 16853 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-18 15:48:46,121 INFO 16853 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/app/schedule/somerefresh.js
+2021-02-19 10:43:59,977 INFO 26030 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 10:43:59,977 INFO 26030 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-02-19 10:43:59,977 INFO 26030 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 10:43:59,977 INFO 26030 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/app/schedule/somerefresh.js
+2021-02-19 10:44:00,696 INFO 26030 [Job#161370264069510220898964139621] /Users/rudy/Desktop/hope/driving-services/app/schedule/somerefresh.js executing by app
+2021-02-19 10:44:00,698 INFO 26030 [Job#161370264069510220898964139621] /Users/rudy/Desktop/hope/driving-services/app/schedule/somerefresh.js execute succeed, used 1ms. 
+2021-02-19 10:44:00,694 INFO 26023 [Timer] /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 63959309ms at 2021-02-20 04:30:00.003
+2021-02-19 10:44:00,695 INFO 26023 [Timer] /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 47759306ms at 2021-02-20 00:00:00.001
+2021-02-19 10:44:00,695 INFO 26023 [Timer] /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 47760305ms at 2021-02-20 00:00:01.000
+2021-02-19 10:44:00,695 INFO 26023 [Timer] /Users/rudy/Desktop/hope/driving-services/app/schedule/somerefresh.js next time will execute immediate
+2021-02-19 10:44:00,696 INFO 26023 [Timer] /Users/rudy/Desktop/hope/driving-services/app/schedule/somerefresh.js reach endDate, will stop
+2021-02-19 10:49:14,431 INFO 26170 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 10:49:14,431 INFO 26170 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-02-19 10:49:14,431 INFO 26170 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 10:49:14,431 INFO 26170 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/app/schedule/somerefresh.js
+2021-02-19 10:49:49,185 INFO 26188 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 10:49:49,185 INFO 26188 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-02-19 10:49:49,185 INFO 26188 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 10:49:49,185 INFO 26188 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/app/schedule/somerefresh.js
+2021-02-19 10:49:52,191 INFO 26199 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 10:49:52,191 INFO 26199 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-02-19 10:49:52,191 INFO 26199 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 10:49:52,191 INFO 26199 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/app/schedule/somerefresh.js
+2021-02-19 10:49:57,257 INFO 26200 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 10:49:57,257 INFO 26200 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-02-19 10:49:57,257 INFO 26200 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 10:49:57,257 INFO 26200 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/app/schedule/somerefresh.js
+2021-02-19 10:50:17,872 INFO 26211 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 10:50:17,872 INFO 26211 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-02-19 10:50:17,872 INFO 26211 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 10:50:17,872 INFO 26211 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/app/schedule/somerefresh.js
+2021-02-19 10:50:20,125 INFO 26215 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 10:50:20,125 INFO 26215 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-02-19 10:50:20,125 INFO 26215 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 10:50:20,125 INFO 26215 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/app/schedule/somerefresh.js
+2021-02-19 10:50:46,537 INFO 26227 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 10:50:46,537 INFO 26227 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-02-19 10:50:46,537 INFO 26227 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 10:50:46,537 INFO 26227 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/app/schedule/somerefresh.js
+2021-02-19 10:51:13,126 INFO 26296 [Timer] /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 63526877ms at 2021-02-20 04:30:00.003
+2021-02-19 10:51:13,126 INFO 26296 [Timer] /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 47326874ms at 2021-02-20 00:00:00.000
+2021-02-19 10:51:13,127 INFO 26296 [Timer] /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 47327874ms at 2021-02-20 00:00:01.001
+2021-02-19 10:51:13,127 INFO 26296 [Timer] /Users/rudy/Desktop/hope/driving-services/app/schedule/somerefresh.js next time will execute immediate
+2021-02-19 10:51:13,127 INFO 26296 [Timer] /Users/rudy/Desktop/hope/driving-services/app/schedule/somerefresh.js reach endDate, will stop
+2021-02-19 10:51:12,650 INFO 26306 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 10:51:12,650 INFO 26306 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-02-19 10:51:12,650 INFO 26306 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 10:51:12,650 INFO 26306 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/app/schedule/somerefresh.js
+2021-02-19 10:51:13,128 INFO 26306 [Job#161370307312710225223046237921] /Users/rudy/Desktop/hope/driving-services/app/schedule/somerefresh.js executing by app
+2021-02-19 10:51:13,130 INFO 26306 [Job#161370307312710225223046237921] /Users/rudy/Desktop/hope/driving-services/app/schedule/somerefresh.js execute succeed, used 1ms. 
+2021-02-19 10:51:48,465 INFO 26316 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 10:51:48,465 INFO 26316 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-02-19 10:51:48,465 INFO 26316 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 10:51:48,465 INFO 26316 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/app/schedule/somerefresh.js
+2021-02-19 10:51:50,669 INFO 26322 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 10:51:50,669 INFO 26322 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-02-19 10:51:50,669 INFO 26322 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 10:51:50,669 INFO 26322 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/app/schedule/somerefresh.js
+2021-02-19 10:52:13,190 INFO 26331 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-19 10:52:13,190 INFO 26331 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-02-19 10:52:13,190 INFO 26331 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-19 10:52:13,190 INFO 26331 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/app/schedule/somerefresh.js
+2021-02-22 21:11:01,086 INFO 37111 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-22 21:11:01,086 INFO 37111 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-02-22 21:11:01,086 INFO 37111 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-22 21:11:01,086 INFO 37111 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/app/schedule/somerefresh.js
+2021-02-22 21:11:01,832 INFO 37111 [Job#16139994618281318908777819101] /Users/rudy/Desktop/hope/driving-services/app/schedule/somerefresh.js executing by app
+2021-02-22 21:11:01,833 INFO 37111 [Job#16139994618281318908777819101] /Users/rudy/Desktop/hope/driving-services/app/schedule/somerefresh.js execute succeed, used 1ms. 
+2021-02-22 21:11:01,827 INFO 37106 [Timer] /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 26338175ms at 2021-02-23 04:30:00.002
+2021-02-22 21:11:01,828 INFO 37106 [Timer] /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 10138172ms at 2021-02-23 00:00:00.000
+2021-02-22 21:11:01,828 INFO 37106 [Timer] /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 10139172ms at 2021-02-23 00:00:01.000
+2021-02-22 21:11:01,828 INFO 37106 [Timer] /Users/rudy/Desktop/hope/driving-services/app/schedule/somerefresh.js next time will execute immediate
+2021-02-22 21:11:01,829 INFO 37106 [Timer] /Users/rudy/Desktop/hope/driving-services/app/schedule/somerefresh.js reach endDate, will stop
+2021-02-22 21:14:16,582 INFO 37170 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-22 21:14:16,582 INFO 37170 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-02-22 21:14:16,582 INFO 37170 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-22 21:14:16,582 INFO 37170 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/app/schedule/somerefresh.js
+2021-02-22 21:14:46,500 INFO 37206 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-22 21:14:46,500 INFO 37206 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-02-22 21:14:46,500 INFO 37206 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-22 21:14:46,500 INFO 37206 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/app/schedule/somerefresh.js
+2021-02-22 21:14:58,033 INFO 37222 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-22 21:14:58,033 INFO 37222 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-02-22 21:14:58,033 INFO 37222 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-22 21:14:58,033 INFO 37222 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/app/schedule/somerefresh.js
+2021-02-22 21:15:13,891 INFO 37239 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-22 21:15:13,891 INFO 37239 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-02-22 21:15:13,891 INFO 37239 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-22 21:15:13,891 INFO 37239 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/app/schedule/somerefresh.js
+2021-02-22 21:15:33,742 INFO 37258 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-22 21:15:33,742 INFO 37258 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-02-22 21:15:33,742 INFO 37258 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-22 21:15:33,742 INFO 37258 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/app/schedule/somerefresh.js
+2021-02-22 21:16:35,976 INFO 37291 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-22 21:16:35,976 INFO 37291 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-02-22 21:16:35,976 INFO 37291 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-22 21:16:35,976 INFO 37291 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/app/schedule/somerefresh.js
+2021-02-22 21:16:43,117 INFO 37318 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-22 21:16:43,117 INFO 37318 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-02-22 21:16:43,117 INFO 37318 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-22 21:16:43,117 INFO 37318 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/app/schedule/somerefresh.js
+2021-02-22 21:17:05,152 INFO 37334 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-22 21:17:05,152 INFO 37334 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-02-22 21:17:05,152 INFO 37334 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-22 21:17:05,152 INFO 37334 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/app/schedule/somerefresh.js
+2021-02-22 21:17:26,934 INFO 37351 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-22 21:17:26,934 INFO 37351 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-02-22 21:17:26,934 INFO 37351 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-22 21:17:26,934 INFO 37351 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/app/schedule/somerefresh.js
+2021-02-22 21:17:43,965 INFO 37374 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2021-02-22 21:17:43,965 INFO 37374 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-02-22 21:17:43,965 INFO 37374 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-02-22 21:17:43,965 INFO 37374 [egg-schedule]: register schedule /Users/rudy/Desktop/hope/driving-services/app/schedule/somerefresh.js

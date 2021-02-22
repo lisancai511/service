@@ -1,0 +1,237 @@
+2021-02-18 14:47:57,881 INFO 12655 egg-axios defaults: {"transformRequest":[null],"transformResponse":[null],"timeout":10000,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1,"headers":{"common":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json; charset=UTF-8"},"delete":{},"get":{},"head":{},"post":{"Content-Type":"application/x-www-form-urlencoded"},"put":{"Content-Type":"application/x-www-form-urlencoded"},"patch":{"Content-Type":"application/x-www-form-urlencoded"}}}
+2021-02-18 14:47:58,089 ERROR 12655 [-/127.0.0.1/-/1ms GET /] nodejs.MongoNetworkError: [egg-mongoose]failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16) {
+  name: 'MongoNetworkError'
+}]
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16) {
+  name: 'MongoNetworkError'
+}]
+    at Pool.<anonymous> (/Users/rudy/Desktop/driving-services/node_modules/_mongodb@3.6.4@mongodb/lib/core/topologies/server.js:438:11)
+    at Pool.emit (events.js:314:20)
+    at /Users/rudy/Desktop/driving-services/node_modules/_mongodb@3.6.4@mongodb/lib/core/connection/pool.js:562:14
+    at /Users/rudy/Desktop/driving-services/node_modules/_mongodb@3.6.4@mongodb/lib/core/connection/pool.js:995:11
+    at /Users/rudy/Desktop/driving-services/node_modules/_mongodb@3.6.4@mongodb/lib/core/connection/connect.js:32:7
+    at callback (/Users/rudy/Desktop/driving-services/node_modules/_mongodb@3.6.4@mongodb/lib/core/connection/connect.js:280:5)
+    at Socket.<anonymous> (/Users/rudy/Desktop/driving-services/node_modules/_mongodb@3.6.4@mongodb/lib/core/connection/connect.js:310:7)
+    at Object.onceWrapper (events.js:421:26)
+    at Socket.emit (events.js:314:20)
+    at emitErrorNT (internal/streams/destroy.js:100:8)
+    at emitErrorCloseNT (internal/streams/destroy.js:68:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+name: "MongoNetworkError"
+pid: 12655
+hostname: 192.168.0.115
+
+2021-02-18 15:04:55,390 INFO 15167 egg-axios defaults: {"transformRequest":[null],"transformResponse":[null],"timeout":10000,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1,"headers":{"common":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json; charset=UTF-8"},"delete":{},"get":{},"head":{},"post":{"Content-Type":"application/x-www-form-urlencoded"},"put":{"Content-Type":"application/x-www-form-urlencoded"},"patch":{"Content-Type":"application/x-www-form-urlencoded"}}}
+2021-02-18 15:40:47,586 ERROR 15167 [-/127.0.0.1/-/7ms GET /api/currentUser] nodejs.TypeError: Cannot read property 'role' of null
+    at UserService.getCurrentUser (/Users/rudy/Desktop/driving-services/app/service/user.js:170:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.getCurrentUser (/Users/rudy/Desktop/driving-services/app/controller/user.js:46:16)
+    at async /Users/rudy/Desktop/driving-services/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/rudy/Desktop/driving-services/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/rudy/Desktop/driving-services/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/rudy/Desktop/driving-services/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/rudy/Desktop/driving-services/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/rudy/Desktop/driving-services/node_modules/_koa-session@6.1.0@koa-session/index.js:41:7)
+    at async bodyParser (/Users/rudy/Desktop/driving-services/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:95:5)
+    at async /Users/rudy/Desktop/driving-services/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:73:16
+    at async notfound (/Users/rudy/Desktop/driving-services/node_modules/_egg@2.29.1@egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/rudy/Desktop/driving-services/node_modules/_egg@2.29.1@egg/app/middleware/meta.js:17:5)
+
+pid: 15167
+hostname: 192.168.0.115
+
+2021-02-18 15:40:59,836 ERROR 15167 [-/127.0.0.1/-/13ms GET /api/currentUser] nodejs.TypeError: Cannot read property 'role' of null
+    at UserService.getCurrentUser (/Users/rudy/Desktop/driving-services/app/service/user.js:170:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.getCurrentUser (/Users/rudy/Desktop/driving-services/app/controller/user.js:46:16)
+    at async /Users/rudy/Desktop/driving-services/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/rudy/Desktop/driving-services/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/rudy/Desktop/driving-services/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/rudy/Desktop/driving-services/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/rudy/Desktop/driving-services/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/rudy/Desktop/driving-services/node_modules/_koa-session@6.1.0@koa-session/index.js:41:7)
+    at async bodyParser (/Users/rudy/Desktop/driving-services/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:95:5)
+    at async /Users/rudy/Desktop/driving-services/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:73:16
+    at async notfound (/Users/rudy/Desktop/driving-services/node_modules/_egg@2.29.1@egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/rudy/Desktop/driving-services/node_modules/_egg@2.29.1@egg/app/middleware/meta.js:17:5)
+
+pid: 15167
+hostname: 192.168.0.115
+
+2021-02-18 15:41:06,472 ERROR 15167 [-/127.0.0.1/-/3ms GET /api/currentUser] nodejs.TypeError: Cannot read property 'role' of null
+    at UserService.getCurrentUser (/Users/rudy/Desktop/driving-services/app/service/user.js:170:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.getCurrentUser (/Users/rudy/Desktop/driving-services/app/controller/user.js:46:16)
+    at async /Users/rudy/Desktop/driving-services/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/rudy/Desktop/driving-services/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/rudy/Desktop/driving-services/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/rudy/Desktop/driving-services/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/rudy/Desktop/driving-services/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/rudy/Desktop/driving-services/node_modules/_koa-session@6.1.0@koa-session/index.js:41:7)
+    at async bodyParser (/Users/rudy/Desktop/driving-services/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:95:5)
+    at async /Users/rudy/Desktop/driving-services/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:73:16
+    at async notfound (/Users/rudy/Desktop/driving-services/node_modules/_egg@2.29.1@egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/rudy/Desktop/driving-services/node_modules/_egg@2.29.1@egg/app/middleware/meta.js:17:5)
+
+pid: 15167
+hostname: 192.168.0.115
+
+2021-02-18 15:41:17,387 ERROR 15167 [-/127.0.0.1/-/4ms GET /api/currentUser] nodejs.TypeError: Cannot read property 'role' of null
+    at UserService.getCurrentUser (/Users/rudy/Desktop/driving-services/app/service/user.js:170:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.getCurrentUser (/Users/rudy/Desktop/driving-services/app/controller/user.js:46:16)
+    at async /Users/rudy/Desktop/driving-services/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/rudy/Desktop/driving-services/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/rudy/Desktop/driving-services/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/rudy/Desktop/driving-services/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/rudy/Desktop/driving-services/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/rudy/Desktop/driving-services/node_modules/_koa-session@6.1.0@koa-session/index.js:41:7)
+    at async bodyParser (/Users/rudy/Desktop/driving-services/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:95:5)
+    at async /Users/rudy/Desktop/driving-services/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:73:16
+    at async notfound (/Users/rudy/Desktop/driving-services/node_modules/_egg@2.29.1@egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/rudy/Desktop/driving-services/node_modules/_egg@2.29.1@egg/app/middleware/meta.js:17:5)
+
+pid: 15167
+hostname: 192.168.0.115
+
+2021-02-18 15:44:37,663 ERROR 15167 [-/127.0.0.1/-/2ms GET /api/currentUser] nodejs.TypeError: Cannot read property 'role' of null
+    at UserService.getCurrentUser (/Users/rudy/Desktop/driving-services/app/service/user.js:170:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.getCurrentUser (/Users/rudy/Desktop/driving-services/app/controller/user.js:46:16)
+    at async /Users/rudy/Desktop/driving-services/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/rudy/Desktop/driving-services/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/rudy/Desktop/driving-services/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/rudy/Desktop/driving-services/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/rudy/Desktop/driving-services/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/rudy/Desktop/driving-services/node_modules/_koa-session@6.1.0@koa-session/index.js:41:7)
+    at async bodyParser (/Users/rudy/Desktop/driving-services/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:95:5)
+    at async /Users/rudy/Desktop/driving-services/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:73:16
+    at async notfound (/Users/rudy/Desktop/driving-services/node_modules/_egg@2.29.1@egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/rudy/Desktop/driving-services/node_modules/_egg@2.29.1@egg/app/middleware/meta.js:17:5)
+
+pid: 15167
+hostname: 192.168.0.115
+
+2021-02-18 15:45:05,179 ERROR 15167 [-/127.0.0.1/-/5ms GET /api/currentUser] nodejs.TypeError: Cannot read property 'role' of null
+    at UserService.getCurrentUser (/Users/rudy/Desktop/driving-services/app/service/user.js:170:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.getCurrentUser (/Users/rudy/Desktop/driving-services/app/controller/user.js:46:16)
+    at async /Users/rudy/Desktop/driving-services/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/rudy/Desktop/driving-services/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/rudy/Desktop/driving-services/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/rudy/Desktop/driving-services/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/rudy/Desktop/driving-services/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/rudy/Desktop/driving-services/node_modules/_koa-session@6.1.0@koa-session/index.js:41:7)
+    at async bodyParser (/Users/rudy/Desktop/driving-services/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:95:5)
+    at async /Users/rudy/Desktop/driving-services/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:73:16
+    at async notfound (/Users/rudy/Desktop/driving-services/node_modules/_egg@2.29.1@egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/rudy/Desktop/driving-services/node_modules/_egg@2.29.1@egg/app/middleware/meta.js:17:5)
+
+pid: 15167
+hostname: 192.168.0.115
+
+2021-02-18 15:45:12,324 ERROR 15167 [-/127.0.0.1/-/13ms GET /api/currentUser] nodejs.TypeError: Cannot read property 'role' of null
+    at UserService.getCurrentUser (/Users/rudy/Desktop/driving-services/app/service/user.js:170:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.getCurrentUser (/Users/rudy/Desktop/driving-services/app/controller/user.js:46:16)
+    at async /Users/rudy/Desktop/driving-services/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/rudy/Desktop/driving-services/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/rudy/Desktop/driving-services/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/rudy/Desktop/driving-services/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/rudy/Desktop/driving-services/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/rudy/Desktop/driving-services/node_modules/_koa-session@6.1.0@koa-session/index.js:41:7)
+    at async bodyParser (/Users/rudy/Desktop/driving-services/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:95:5)
+    at async /Users/rudy/Desktop/driving-services/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:73:16
+    at async notfound (/Users/rudy/Desktop/driving-services/node_modules/_egg@2.29.1@egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/rudy/Desktop/driving-services/node_modules/_egg@2.29.1@egg/app/middleware/meta.js:17:5)
+
+pid: 15167
+hostname: 192.168.0.115
+
+2021-02-18 15:47:49,807 INFO 16746 egg-axios defaults: {"transformRequest":[null],"transformResponse":[null],"timeout":10000,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1,"headers":{"common":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json; charset=UTF-8"},"delete":{},"get":{},"head":{},"post":{"Content-Type":"application/x-www-form-urlencoded"},"put":{"Content-Type":"application/x-www-form-urlencoded"},"patch":{"Content-Type":"application/x-www-form-urlencoded"}}}
+2021-02-18 15:48:46,671 INFO 16853 egg-axios defaults: {"transformRequest":[null],"transformResponse":[null],"timeout":10000,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1,"headers":{"common":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json; charset=UTF-8"},"delete":{},"get":{},"head":{},"post":{"Content-Type":"application/x-www-form-urlencoded"},"put":{"Content-Type":"application/x-www-form-urlencoded"},"patch":{"Content-Type":"application/x-www-form-urlencoded"}}}
+2021-02-18 15:48:53,382 ERROR 16853 [-/127.0.0.1/-/26ms GET /api/currentUser] nodejs.TypeError: Cannot read property 'role' of null
+    at UserService.getCurrentUser (/Users/rudy/Desktop/hope/driving-services/app/service/user.js:170:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.getCurrentUser (/Users/rudy/Desktop/hope/driving-services/app/controller/user.js:46:16)
+    at async /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/rudy/Desktop/hope/driving-services/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/rudy/Desktop/hope/driving-services/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/rudy/Desktop/hope/driving-services/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/rudy/Desktop/hope/driving-services/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/rudy/Desktop/hope/driving-services/node_modules/_koa-session@6.1.0@koa-session/index.js:41:7)
+    at async bodyParser (/Users/rudy/Desktop/hope/driving-services/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:95:5)
+    at async /Users/rudy/Desktop/hope/driving-services/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:73:16
+    at async notfound (/Users/rudy/Desktop/hope/driving-services/node_modules/_egg@2.29.1@egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/rudy/Desktop/hope/driving-services/node_modules/_egg@2.29.1@egg/app/middleware/meta.js:17:5)
+
+pid: 16853
+hostname: 192.168.0.115
+
+2021-02-18 15:49:01,781 ERROR 16853 [-/127.0.0.1/-/6ms GET /api/currentUser] nodejs.TypeError: Cannot read property 'role' of null
+    at UserService.getCurrentUser (/Users/rudy/Desktop/hope/driving-services/app/service/user.js:170:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.getCurrentUser (/Users/rudy/Desktop/hope/driving-services/app/controller/user.js:46:16)
+    at async /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/rudy/Desktop/hope/driving-services/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/rudy/Desktop/hope/driving-services/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/rudy/Desktop/hope/driving-services/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/rudy/Desktop/hope/driving-services/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/rudy/Desktop/hope/driving-services/node_modules/_koa-session@6.1.0@koa-session/index.js:41:7)
+    at async bodyParser (/Users/rudy/Desktop/hope/driving-services/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:95:5)
+    at async /Users/rudy/Desktop/hope/driving-services/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:73:16
+    at async notfound (/Users/rudy/Desktop/hope/driving-services/node_modules/_egg@2.29.1@egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/rudy/Desktop/hope/driving-services/node_modules/_egg@2.29.1@egg/app/middleware/meta.js:17:5)
+
+pid: 16853
+hostname: 192.168.0.115
+
+2021-02-18 15:49:12,519 ERROR 16853 [-/127.0.0.1/-/4ms GET /api/currentUser] nodejs.TypeError: Cannot read property 'role' of null
+    at UserService.getCurrentUser (/Users/rudy/Desktop/hope/driving-services/app/service/user.js:170:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.getCurrentUser (/Users/rudy/Desktop/hope/driving-services/app/controller/user.js:46:16)
+    at async /Users/rudy/Desktop/hope/driving-services/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/rudy/Desktop/hope/driving-services/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/rudy/Desktop/hope/driving-services/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/rudy/Desktop/hope/driving-services/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/rudy/Desktop/hope/driving-services/node_modules/_egg-security@2.8.0@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/rudy/Desktop/hope/driving-services/node_modules/_koa-session@6.1.0@koa-session/index.js:41:7)
+    at async bodyParser (/Users/rudy/Desktop/hope/driving-services/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:95:5)
+    at async /Users/rudy/Desktop/hope/driving-services/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:73:16
+    at async notfound (/Users/rudy/Desktop/hope/driving-services/node_modules/_egg@2.29.1@egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/rudy/Desktop/hope/driving-services/node_modules/_egg@2.29.1@egg/app/middleware/meta.js:17:5)
+
+pid: 16853
+hostname: 192.168.0.115
+
+2021-02-19 10:44:00,440 INFO 26030 egg-axios defaults: {"transformRequest":[null],"transformResponse":[null],"timeout":10000,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1,"headers":{"common":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json; charset=UTF-8"},"delete":{},"get":{},"head":{},"post":{"Content-Type":"application/x-www-form-urlencoded"},"put":{"Content-Type":"application/x-www-form-urlencoded"},"patch":{"Content-Type":"application/x-www-form-urlencoded"}}}
+2021-02-19 10:49:14,938 INFO 26170 egg-axios defaults: {"transformRequest":[null],"transformResponse":[null],"timeout":10000,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1,"headers":{"common":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json; charset=UTF-8"},"delete":{},"get":{},"head":{},"post":{"Content-Type":"application/x-www-form-urlencoded"},"put":{"Content-Type":"application/x-www-form-urlencoded"},"patch":{"Content-Type":"application/x-www-form-urlencoded"}}}
+2021-02-19 10:49:49,997 INFO 26188 egg-axios defaults: {"transformRequest":[null],"transformResponse":[null],"timeout":10000,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1,"headers":{"common":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json; charset=UTF-8"},"delete":{},"get":{},"head":{},"post":{"Content-Type":"application/x-www-form-urlencoded"},"put":{"Content-Type":"application/x-www-form-urlencoded"},"patch":{"Content-Type":"application/x-www-form-urlencoded"}}}
+2021-02-19 10:49:52,569 INFO 26199 egg-axios defaults: {"transformRequest":[null],"transformResponse":[null],"timeout":10000,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1,"headers":{"common":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json; charset=UTF-8"},"delete":{},"get":{},"head":{},"post":{"Content-Type":"application/x-www-form-urlencoded"},"put":{"Content-Type":"application/x-www-form-urlencoded"},"patch":{"Content-Type":"application/x-www-form-urlencoded"}}}
+2021-02-19 10:49:57,950 INFO 26200 egg-axios defaults: {"transformRequest":[null],"transformResponse":[null],"timeout":10000,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1,"headers":{"common":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json; charset=UTF-8"},"delete":{},"get":{},"head":{},"post":{"Content-Type":"application/x-www-form-urlencoded"},"put":{"Content-Type":"application/x-www-form-urlencoded"},"patch":{"Content-Type":"application/x-www-form-urlencoded"}}}
+2021-02-19 10:50:18,590 INFO 26211 egg-axios defaults: {"transformRequest":[null],"transformResponse":[null],"timeout":10000,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1,"headers":{"common":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json; charset=UTF-8"},"delete":{},"get":{},"head":{},"post":{"Content-Type":"application/x-www-form-urlencoded"},"put":{"Content-Type":"application/x-www-form-urlencoded"},"patch":{"Content-Type":"application/x-www-form-urlencoded"}}}
+2021-02-19 10:50:20,554 INFO 26215 egg-axios defaults: {"transformRequest":[null],"transformResponse":[null],"timeout":10000,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1,"headers":{"common":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json; charset=UTF-8"},"delete":{},"get":{},"head":{},"post":{"Content-Type":"application/x-www-form-urlencoded"},"put":{"Content-Type":"application/x-www-form-urlencoded"},"patch":{"Content-Type":"application/x-www-form-urlencoded"}}}
+2021-02-19 10:50:47,004 INFO 26227 egg-axios defaults: {"transformRequest":[null],"transformResponse":[null],"timeout":10000,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1,"headers":{"common":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json; charset=UTF-8"},"delete":{},"get":{},"head":{},"post":{"Content-Type":"application/x-www-form-urlencoded"},"put":{"Content-Type":"application/x-www-form-urlencoded"},"patch":{"Content-Type":"application/x-www-form-urlencoded"}}}
+2021-02-19 10:51:12,941 INFO 26306 egg-axios defaults: {"transformRequest":[null],"transformResponse":[null],"timeout":10000,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1,"headers":{"common":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json; charset=UTF-8"},"delete":{},"get":{},"head":{},"post":{"Content-Type":"application/x-www-form-urlencoded"},"put":{"Content-Type":"application/x-www-form-urlencoded"},"patch":{"Content-Type":"application/x-www-form-urlencoded"}}}
+2021-02-19 10:51:48,938 INFO 26316 egg-axios defaults: {"transformRequest":[null],"transformResponse":[null],"timeout":10000,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1,"headers":{"common":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json; charset=UTF-8"},"delete":{},"get":{},"head":{},"post":{"Content-Type":"application/x-www-form-urlencoded"},"put":{"Content-Type":"application/x-www-form-urlencoded"},"patch":{"Content-Type":"application/x-www-form-urlencoded"}}}
+2021-02-19 10:51:51,049 INFO 26322 egg-axios defaults: {"transformRequest":[null],"transformResponse":[null],"timeout":10000,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1,"headers":{"common":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json; charset=UTF-8"},"delete":{},"get":{},"head":{},"post":{"Content-Type":"application/x-www-form-urlencoded"},"put":{"Content-Type":"application/x-www-form-urlencoded"},"patch":{"Content-Type":"application/x-www-form-urlencoded"}}}
+2021-02-19 10:52:13,481 INFO 26331 egg-axios defaults: {"transformRequest":[null],"transformResponse":[null],"timeout":10000,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1,"headers":{"common":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json; charset=UTF-8"},"delete":{},"get":{},"head":{},"post":{"Content-Type":"application/x-www-form-urlencoded"},"put":{"Content-Type":"application/x-www-form-urlencoded"},"patch":{"Content-Type":"application/x-www-form-urlencoded"}}}
+2021-02-22 21:11:01,569 INFO 37111 egg-axios defaults: {"transformRequest":[null],"transformResponse":[null],"timeout":10000,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1,"headers":{"common":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json; charset=UTF-8"},"delete":{},"get":{},"head":{},"post":{"Content-Type":"application/x-www-form-urlencoded"},"put":{"Content-Type":"application/x-www-form-urlencoded"},"patch":{"Content-Type":"application/x-www-form-urlencoded"}}}
+2021-02-22 21:14:17,185 INFO 37170 egg-axios defaults: {"transformRequest":[null],"transformResponse":[null],"timeout":10000,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1,"headers":{"common":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json; charset=UTF-8"},"delete":{},"get":{},"head":{},"post":{"Content-Type":"application/x-www-form-urlencoded"},"put":{"Content-Type":"application/x-www-form-urlencoded"},"patch":{"Content-Type":"application/x-www-form-urlencoded"}}}
+2021-02-22 21:14:47,169 INFO 37206 egg-axios defaults: {"transformRequest":[null],"transformResponse":[null],"timeout":10000,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1,"headers":{"common":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json; charset=UTF-8"},"delete":{},"get":{},"head":{},"post":{"Content-Type":"application/x-www-form-urlencoded"},"put":{"Content-Type":"application/x-www-form-urlencoded"},"patch":{"Content-Type":"application/x-www-form-urlencoded"}}}
+2021-02-22 21:14:58,558 INFO 37222 egg-axios defaults: {"transformRequest":[null],"transformResponse":[null],"timeout":10000,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1,"headers":{"common":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json; charset=UTF-8"},"delete":{},"get":{},"head":{},"post":{"Content-Type":"application/x-www-form-urlencoded"},"put":{"Content-Type":"application/x-www-form-urlencoded"},"patch":{"Content-Type":"application/x-www-form-urlencoded"}}}
+2021-02-22 21:15:14,361 INFO 37239 egg-axios defaults: {"transformRequest":[null],"transformResponse":[null],"timeout":10000,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1,"headers":{"common":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json; charset=UTF-8"},"delete":{},"get":{},"head":{},"post":{"Content-Type":"application/x-www-form-urlencoded"},"put":{"Content-Type":"application/x-www-form-urlencoded"},"patch":{"Content-Type":"application/x-www-form-urlencoded"}}}
+2021-02-22 21:15:34,248 INFO 37258 egg-axios defaults: {"transformRequest":[null],"transformResponse":[null],"timeout":10000,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1,"headers":{"common":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json; charset=UTF-8"},"delete":{},"get":{},"head":{},"post":{"Content-Type":"application/x-www-form-urlencoded"},"put":{"Content-Type":"application/x-www-form-urlencoded"},"patch":{"Content-Type":"application/x-www-form-urlencoded"}}}
+2021-02-22 21:16:36,843 INFO 37291 egg-axios defaults: {"transformRequest":[null],"transformResponse":[null],"timeout":10000,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1,"headers":{"common":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json; charset=UTF-8"},"delete":{},"get":{},"head":{},"post":{"Content-Type":"application/x-www-form-urlencoded"},"put":{"Content-Type":"application/x-www-form-urlencoded"},"patch":{"Content-Type":"application/x-www-form-urlencoded"}}}
+2021-02-22 21:16:43,523 INFO 37318 egg-axios defaults: {"transformRequest":[null],"transformResponse":[null],"timeout":10000,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1,"headers":{"common":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json; charset=UTF-8"},"delete":{},"get":{},"head":{},"post":{"Content-Type":"application/x-www-form-urlencoded"},"put":{"Content-Type":"application/x-www-form-urlencoded"},"patch":{"Content-Type":"application/x-www-form-urlencoded"}}}
+2021-02-22 21:17:05,617 INFO 37334 egg-axios defaults: {"transformRequest":[null],"transformResponse":[null],"timeout":10000,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1,"headers":{"common":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json; charset=UTF-8"},"delete":{},"get":{},"head":{},"post":{"Content-Type":"application/x-www-form-urlencoded"},"put":{"Content-Type":"application/x-www-form-urlencoded"},"patch":{"Content-Type":"application/x-www-form-urlencoded"}}}
+2021-02-22 21:17:27,468 INFO 37351 egg-axios defaults: {"transformRequest":[null],"transformResponse":[null],"timeout":10000,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1,"headers":{"common":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json; charset=UTF-8"},"delete":{},"get":{},"head":{},"post":{"Content-Type":"application/x-www-form-urlencoded"},"put":{"Content-Type":"application/x-www-form-urlencoded"},"patch":{"Content-Type":"application/x-www-form-urlencoded"}}}
+2021-02-22 21:17:44,279 INFO 37374 egg-axios defaults: {"transformRequest":[null],"transformResponse":[null],"timeout":10000,"xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN","maxContentLength":-1,"maxBodyLength":-1,"headers":{"common":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json; charset=UTF-8"},"delete":{},"get":{},"head":{},"post":{"Content-Type":"application/x-www-form-urlencoded"},"put":{"Content-Type":"application/x-www-form-urlencoded"},"patch":{"Content-Type":"application/x-www-form-urlencoded"}}}
